@@ -678,7 +678,7 @@ export interface PlaybackState {
     timestamp: number
     progress_ms: number
     is_playing: boolean
-    item: TrackItem
+    item: TrackItem | null
     currently_playing_type: string
     actions: Actions
 }
